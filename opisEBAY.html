@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beschreibung Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container p-4">
+      <div class="d-flex justify-content-center mb-5">
+        <a href="https://a-kke.de/">
+          <img
+            src="https://public.cdn-auctiofy.com/user/3/2993/usf_logo_0_2993_161920387729383a1d22ea1b17dba1041ce9a6e4c7.jpg"
+            class="logo img-responsive"
+        /></a>
+      </div>
+      <nav class="navbar navbar-expand-lg justify-content-center">
+        <button
+          class="navbar-toggler mb-4"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ml-auto align-items-center">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://stores.ebay.de/euakke"
+                target="_blank"
+                >zu unserem Shop</a
+              >
+            </li>
+            <li class="nav-item separator d-none d-lg-inline">/</li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.ebay.de/usr/eu_akke"
+                target="_blank"
+                >Verkäuferprofil</a
+              >
+            </li>
+            <li class="nav-item separator d-none d-lg-inline">/</li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://feedback.ebay.de/ws/eBayISAPI.dll?ViewFeedback2&amp;userid=eu_akke"
+                target="_blank"
+                >Bewertungen</a
+              >
+            </li>
+            <li class="nav-item separator d-none d-lg-inline">/</li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://my.ebay.de/ws/eBayISAPI.dll?AcceptSavedSeller&amp;sellerid=eu_akke&amp;ssPageName=STRK:MEFS:ADDSTR&amp;rt=nc"
+                target="_blank"
+                >Newsletter</a
+              >
+            </li>
+            <li class="nav-item separator d-none d-lg-inline">/</li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://contact.ebay.de/ws/eBayISAPI.dll?ContactUserNextGen&amp;recipient=eu_akke"
+                target="_blank"
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="row my-5">
+        <div class="col-lg-6 artpic">
+          <div class="artikelbilder galerie">
+            <input
+              name="switch"
+              id="slide1"
+              class="anker slide"
+              type="radio"
+              checked=""
+            />
+            <input name="switch" id="slide2" class="anker slide" type="radio" />
+            <input name="switch" id="slide3" class="anker slide" type="radio" />
+            <input name="switch" id="slide4" class="anker slide" type="radio" />
+
+            <ul>
+              <li class="pic1 img slide">
+                <img
+                  src="https://host958985.xce.pl/FOTO/BIURKO/ARANZACJE/CZARNE/18_CIEMNY_GRAFIT.JPG"
+                />
+              </li>
+              <li class="pic2 img slide">
+                <img
+                  src="https://host958985.xce.pl/FOTO/BIURKO/18_CIEMNY_GRAFIT_BLK_01.JPG"
+                />
+              </li>
+              <li class="pic3 img slide">
+                <img
+                  src="https://host958985.xce.pl/FOTO/BIURKO/18_CIEMNY_GRAFIT_BLK_02.JPG"
+                />
+              </li>
+              <li class="pic4 img slide">
+                <img
+                  src="https://host958985.xce.pl/FOTO/BIURKO/18_CIEMNY_GRAFIT_BLK_03.JPG"
+                />
+              </li>
+            </ul>
+
+            <!-- Thumbnails -->
+            <div class="thumb">
+              <label class="pic1 col-xs-3" for="slide1"
+                ><span class="anker"></span>
+                <img
+                  src="https://host958985.xce.pl/FOTO/BIURKO/ARANZACJE/CZARNE/18_CIEMNY_GRAFIT.JPG"
+              /></label>
+              <label class="pic2 col-xs-3" for="slide2"
+                ><span class="anker"></span>
+                <img
+                  src="https://host958985.xce.pl/FOTO/BIURKO/18_CIEMNY_GRAFIT_BLK_01.JPG"
+              /></label>
+              <label class="pic3 col-xs-3" for="slide3"
+                ><span class="anker"></span>
+                <img
+                  src="https://host958985.xce.pl/FOTO/BIURKO/18_CIEMNY_GRAFIT_BLK_02.JPG"
+              /></label>
+              <label class="pic4 col-xs-3" for="slide4"
+                ><span class="anker"></span>
+                <img
+                  src="https://host958985.xce.pl/FOTO/BIURKO/18_CIEMNY_GRAFIT_BLK_03.JPG"
+              /></label>
+              <!-- Thumbnails -->
+            </div>
+
+            <!-- Artikelbilder -->
+          </div>
+        </div>
+        <div class="col-lg-6 mt-5">
+          <div>
+            <h1>SCHREIBTISCH mit SCHWARZ Beinen | AHORN</h1>
+
+            <div class="badge-list mt-4">
+              <div class="h5 mb-3">Varianten:</div>
+              <span class="badge">50x50</span>
+              <span class="badge">60x40</span>
+              <span class="badge">60x50</span>
+              <span class="badge">60x60</span>
+              <span class="badge">65x65</span>
+              <span class="badge">70x40</span>
+              <span class="badge">70x50</span>
+              <span class="badge">70x60</span>
+              <span class="badge">80x35</span>
+              <span class="badge">80x40</span>
+              <span class="badge">80x50</span>
+              <span class="badge">80x60</span>
+              <span class="badge">90x40</span>
+              <span class="badge">90x50</span>
+              <span class="badge">90x60</span>
+              <span class="badge">100x40</span>
+              <span class="badge">100x50</span>
+              <span class="badge">100x55</span>
+              <span class="badge">100x60</span>
+              <span class="badge">110x65</span>
+              <span class="badge">120x60</span>
+            </div>
+
+            <div class="d-flex mt-4 row">
+              <div class="col-lg-4 col-6">
+                <div class="h3" id="pricetag">59,90 €</div>
+                <small>inkl. 19% MwSt.</small>
+              </div>
+              <button class="col-lg-6 col-6">SOFORT-KAUFEN</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <input name="tabs" id="tab1" value="tab1" type="radio" checked hidden />
+      <label for="tab1"><span>Opis</span></label>
+      <input name="tabs" id="tab2" value="tab2" type="radio" hidden />
+      <label for="tab2"><span>Kolory</span></label>
+      <input name="tabs" id="tab3" value="Dostawa" type="radio" hidden />
+      <label for="tab3"><span>Dostawa</span></label>
+
+      <div class="tab-content" id="content-tab1">
+        <div class="row align-items-center">
+          <div class="col-lg-4 order-lg-1 order-2">
+            <img
+              src="https://host958985.xce.pl/FOTO/BIURKO/ARANZACJE/CZARNE/18_CIEMNY_GRAFIT.JPG"
+              alt="Biurko - czarne nogi"
+            />
+          </div>
+          <div class="col-lg order-lg-2 order-1 p-lg-5 pt-5">
+            <h1>Stilvolles und modernes Design</h1>
+            <hr class="me-5" />
+            <p>
+              Wenn Sie nach einem
+              <strong>stilvollen und praktischen</strong> Schreibtisch für Ihr
+              Homeoffice oder Arbeitsplatz suchen, wird unser Produkt sicherlich
+              Ihre Erwartungen erfüllen. Unser Schreibtisch ist die perfekte
+              Wahl für diejenigen, die Funktionalität und Ästhetik in einem
+              schätzen.
+            </p>
+            <p>
+              Das macht unseren Schreibtisch zur perfekten Wahl für jeden, der
+              nach einem praktischen, eleganten und funktionalen Möbelstück für
+              sein Homeoffice oder Arbeitsplatz sucht. Seine einfache Montage,
+              robuste Konstruktion, 18mm Tischplatte aus Spanplatte,
+              höhenverstellbare Beine, Pulverbeschichtung der Beine und
+              Kabeldurchführung sind Merkmale, die unseren Schreibtisch zur
+              idealen Wahl für jeden machen, der Funktionalität und Ästhetik
+              schätzt.
+            </p>
+          </div>
+        </div>
+        <div class="row align-items-center mt-lg-5">
+          <div class="col-lg mt-5 mt-lg-0">
+            <h1>Einfache Montage und Einstellung</h1>
+            <hr class="me-5" />
+            <p>
+              Einer der Hauptvorteile unseres Schreibtisches ist seine einfache
+              und schnelle Montage. Alle Teile sind gut gekennzeichnet, und die
+              Montage ist einfach und intuitiv. So haben Sie in kürzester Zeit
+              einen neuen Schreibtisch in Ihrem Homeoffice.
+            </p>
+            <p>
+              Unser Schreibtischvorschlag ist mit höhenverstellbaren Beinen
+              ausgestattet, was es Ihnen ermöglicht, den Schreibtisch an Ihre
+              Bedürfnisse und Anforderungen anzupassen. Dadurch können Sie die
+              <strong>Höhe des Schreibtisches</strong> an Ihre Körpergröße
+              anpassen, was den Komfort während der Arbeit erhöht.
+            </p>
+          </div>
+          <div class="col-lg-4 mt-5 mt-lg-0">
+            <img
+              src="https://host958985.xce.pl/FOTO/BIURKO/18_CIEMNY_GRAFIT_BLK_01.JPG"
+              alt="Biurko - czarne nogi"
+            />
+          </div>
+        </div>
+        <div class="row align-items-center mt-lg-5 text-lg-left">
+          <div class="col-lg mt-5 mt-lg-0 mb-lg-5">
+            <h1>Hochwertige Verarbeitung</h1>
+            <hr class="mx-lg-0" />
+            <p>
+              Der Schreibtisch besteht aus einer
+              <strong>18mm Tischplatte</strong> aus Spanplatte, was ihn nicht
+              nur robust und langlebig, sondern auch elegant und ästhetisch
+              macht. Die Oberfläche des Schreibtisches ist glatt und leicht zu
+              reinigen, was die Pflege erleichtert. Zusätzlich verfügt der
+              Schreibtisch über eine Kabeldurchführung, die es Ihnen ermöglicht,
+              elektrische Kabel unter der Tischplatte zu führen und Ordnung in
+              Ihrem Homeoffice zu halten.
+            </p>
+            <p>
+              Die Beine des Schreibtisches wurden mit einem
+              Pulverbeschichtungsverfahren behandelt, was Langlebigkeit und
+              Kratzfestigkeit gewährleistet. Die Pulverbeschichtung verleiht
+              auch ein elegantes Aussehen und macht den Schreibtisch sehr
+              modern.
+            </p>
+          </div>
+        </div>
+        <div
+          class="row align-items-center text-lg-center justify-content-center"
+        >
+          <div class="col-lg-4 mt-5 mt-lg-0">
+            <img
+              src="https://host958985.xce.pl/FOTO/BIURKO/18_CIEMNY_GRAFIT_BLK_02.JPG"
+              alt="Biurko - czarne nogi"
+            />
+          </div>
+          <div class="col-lg-4">
+            <img
+              src="https://host958985.xce.pl/FOTO/BIURKO/18_CIEMNY_GRAFIT_BLK_03.JPG"
+              alt="Biurko - czarne nogi"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="tab-content row mt-5 px-2" id="content-tab2">
+        <div class="my-4">
+          <h1>
+            Unten finden Sie Links zur Auktion mit allen verfügbare
+            Farbvarianten Ausführungen
+          </h1>
+          <hr class="me-5" />
+        </div>
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Caravaggio&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Caravaggio"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/01_CARAVAGGIO.jpeg"
+            />
+            <p>Caravaggio</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Erle&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Erle"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/02_OLCHA.jpeg"
+            />
+            <p>Erle</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Dunkle Walnuss&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Dunkle Walnuss"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/03_CIEMNY_ORZECH.jpeg"
+            />
+            <p>Dunkle Walnuss</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Locarno&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Locarno"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/04_LOCARNO.jpeg"
+            />
+            <p>Locarno</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Sonoma&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Sonoma"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/05_SONOMA.jpeg"
+            />
+            <p>Sonoma</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Trüffel&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Trüffel"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/06_TRUFLA.jpeg"
+            />
+            <p>Trüffel</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Ahorn&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Ahorn"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/07_KLON.jpeg"
+            />
+            <p>Ahorn</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Helle Eiche&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Helle Eiche"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/08_DAB_JASNY.jpeg"
+            />
+            <p>Helle Eiche</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Bayerische Buche&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Bayerische Buche"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/09_BURGUNDIA.jpeg"
+            />
+            <p>Bayerische Buche</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Burgund&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Burgund"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/10_BUK_BAVARIA.jpeg"
+            />
+            <p>Burgund</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Wenge&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Wenge"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/11_WENGE.jpeg"
+            />
+            <p>Wenge</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Beton&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Beton"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/12_BETON.jpeg"
+            />
+            <p>Beton</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Gold Craft&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Gold Craft"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/13_CRAFT_ZLOTY.jpeg"
+            />
+            <p>Gold Craft</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Weiße Craft&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Weiße Craft"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/14_CRAFT_BIALY.jpeg"
+            />
+            <p>Weiße Craft</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Weiß&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Weiß"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/15_BIALY.jpeg"
+            />
+            <p>Weiß</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Vanille&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Vanille"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/16_WANILIA.jpeg"
+            />
+            <p>Vanille</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Hellgrau&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Hellgrau"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/17_JASNY_POPIEL.jpeg"
+            />
+            <p>Hellgrau</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Dark graphite&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Dark graphite"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/18_CIEMNY_GRAFIT.jpeg"
+            />
+            <p>Dark graphite</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Light graphite&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Light graphite"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/19_JASNY_GRAFIT.jpeg"
+            />
+            <p>Light graphite</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Schwarz&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Schwarz"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/20_CZARNY.jpeg"
+            />
+            <p>Schwarz</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Gewürzter Eiche&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Gewürzter Eiche"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/21_DAB_KORZENNY.jpeg"
+            />
+            <p>Gewürzter Eiche</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Urwüchsige Eiche&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Urwüchsige Eiche"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/22_DAB_PRADAWNY.jpeg"
+            />
+            <p>Urwüchsige Eiche</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Rijeka-Eiche&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Rijeka-Eiche"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/23_DAB_RIJEKA.jpeg"
+            />
+            <p>Rijeka-Eiche</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Retro-Holz&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Retro-Holz"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/24_DREWNO_RETRO.jpeg"
+            />
+            <p>Retro-Holz</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Antike Eiche&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Antike Eiche"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/25_DAB_ANTYCZNY.jpeg"
+            />
+            <p>Antike Eiche</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Brunico-Eiche&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Brunico-Eiche"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/26_DAB_BRUNICO.jpeg"
+            />
+            <p>Brunico-Eiche</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Canyon-Eiche&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Canyon-Eiche"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/27_DAB_CANYON.jpeg"
+            />
+            <p>Canyon-Eiche</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Marino-Walnuss&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Marino-Walnuss"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/28_ORZECH_MARINO.jpeg"
+            />
+            <p>Marino-Walnuss</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Gebleichte Kiefer&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Gebleichte Kiefer"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/29_SOSNA_BIELONA.jpeg"
+            />
+            <p>Gebleichte Kiefer</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Enigma&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Enigma"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/30_ENIGMA.jpeg"
+            />
+            <p>Enigma</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Trockener Stein&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Trockener Stein"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/31_WYTRAWNY_KAMIEN.jpeg"
+            />
+            <p>Trockener Stein</p>
+          </a>
+        </div>
+
+        <div class="col-lg-1 col-md-3 col-6 tile">
+          <a
+            href="https://www.ebay.de/sch/m.html?_odkw=&_ssn=eu_akke&_armrs=1&_osacat=0&_from=R40&_trksid=p2046732.m570.l1313&_nkw=Artisan-Eiche&_sacat=0"
+            target="_blank"
+          >
+            <img
+              alt="Artisan-Eiche"
+              src="https://host958985.xce.pl/FOTO/STRUKTURA/32_DAB_ARTISAN.jpeg"
+            />
+            <p>Artisan-Eiche</p>
+          </a>
+        </div>
+      </div>
+      <div class="tab-content" id="content-tab3">Sekcja dostawy</div>
+    </div>
+
+    <div class="info my-5">
+      <div class="container">
+        <div class="row p-5">
+          <div class="col-lg-4 ">
+            <h1>Schnelle Lieferung</h1>
+            <hr>
+            <p>
+              Jedes Paket wird Schnell wie möglich innerhalb von die angegebene
+              Bearbeitungszeit an Sie verschickt.
+            </p>
+          </div>
+          <div class="col-lg-4 px-5">
+            <h1 >Recycelte Versandverpackung</h1>
+            <hr>
+
+            <p>
+              Wir wissen, wie wichtig unsere natürliche Umwelt für Sie ist.
+              Deshalb sind unsere Verpackungen in 100% biologisch abbaubaren
+              recycelten Materialien verpackt.
+            </p>
+          </div>
+          <div class="col-lg-4 ">
+            <h1 >Sie können uns vertrauen</h1>
+            <hr>
+
+            <p>
+              Wir wissen, wie wichtig jeder Kunde ist, es gibt kein Problem, das
+              wir nicht lösen können! Wir stehen Ihnen jederzeit gerne zur
+              Verfügung. Angebote bequem per Email erhalten Newsletter
+              abonnieren Newsletter abonnieren hier klicken
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container p-4">
+      <div class="row mt-5 py-5 footer">
+        <div class="col-sm-3">
+          <h1 class="mb-3">Links</h1>
+          <ul>
+            <li>
+              <a target="_blank" href="https://stores.ebay.de/euakke/"
+                >Alle Angebote</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://feedback.ebay.de/ws/eBayISAPI.dll?ViewFeedback2&amp;userid=eu_akke"
+                >Bewertungen</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://contact.ebay.de/ws/eBayISAPI.dll?ContactUserNextGen&amp;recipient=eu_akke"
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-6">
+          <h1 class="mb-3">Über uns</h1>
+          <p>
+            Wir möchten, dass unsere Kunden mehr als nur zufrieden sind. Darum
+            setzen wir uns mit all unserem Engagement ein für eine gute und
+            umfassende Beratung. Unsere Servicekräfte stehen Ihnen für all Ihre
+            Fragen zur Verfügung und beraten Sie freundlich und kompetent zu
+            unseren Produkten.
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <h1 class="mb-3">Zahlungsarten</h1>
+          <p>
+            <img
+              class="footer_icons"
+              src="https://public.cdn-auctiofy.com/resources/images-packages/payment-icons/pack-3/ebay_payments.png"
+            /><img
+              class="footer_icons"
+              src="https://public.cdn-auctiofy.com/resources/images-packages/payment-icons/pack-3/kreditkarte.png"
+            /><img
+              class="footer_icons"
+              src="https://public.cdn-auctiofy.com/resources/images-packages/payment-icons/pack-3/paypal.png"
+            />
+          </p>
+          <h1 class="mb-3">Versand</h1>
+          <p>
+            <img
+              class="footer_icons"
+              src="https://public.cdn-auctiofy.com/resources/images-packages/delivery-icons/pack-3/dpd.png"
+            /><img
+              class="footer_icons"
+              src="https://public.cdn-auctiofy.com/resources/images-packages/delivery-icons/pack-3/gls.png"
+            /><img
+              class="footer_icons"
+              src="https://public.cdn-auctiofy.com/resources/images-packages/delivery-icons/pack-3/iloxx.png"
+            />
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <style>
+    
+
+      .info {
+        background-color: #e9e9e9;
+      }
+      .footer {
+        color: rgb(49, 49, 49);
+      }
+      .footer ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .footer h1 {
+        text-transform: uppercase;
+        font-size: 1.2em;
+      }
+
+      .footer li {
+        padding: 10px 0;
+      }
+
+      .footer_icons {
+        width: 100px;
+      }
+
+      .navbar-toggler:hover {
+        background-color: transparent !important; /* Usuwa tło podczas najechania */
+      }
+      .separator {
+        margin: 0 10px; /* dodaje marginesy po bokach separatora */
+      }
+      .navbar-collapse .navbar-nav .nav-link {
+        padding-top: 15px; /* Zwiększ padding górny */
+        padding-bottom: 15px; /* Zwiększ padding dolny */
+      }
+      .menu li {
+        list-style-type: none;
+        padding: 0 20px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .menu a {
+        color: rgb(49, 49, 49);
+        font-weight: 600;
+      }
+      .menu {
+        color: rgb(211, 211, 211);
+      }
+      .badge-list .badge {
+        margin-right: 3px; /* Dodaje odstęp po prawej stronie każdej etykiety */
+        margin-bottom: 8px; /* Dodaje odstęp na dole każdej etykiety */
+        padding: 8px;
+        font-weight: normal;
+        font-size: 1em;
+        color: rgb(80, 80, 80);
+        background-color: #e9e9e9;
+      }
+      .artikelbilder.galerie {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+      }
+
+      .artikelbilder.galerie .anker.slide {
+        display: none; /* Ukrywa przełączniki radio */
+      }
+
+      /* Domyślnie ukrywamy wszystkie obrazy w galerii */
+      .artikelbilder.galerie .img.slide {
+        display: none;
+        width: 100%;
+      }
+
+      .artikelbilder.galerie ul {
+        padding-left: 0;
+        list-style-type: none; /* Usuwa punktory listy */
+      }
+
+      /* Wyświetlamy odpowiedni obraz w galerii w zależności od zaznaczonego przełącznika */
+      #slide1:checked ~ ul .pic1.img.slide,
+      #slide2:checked ~ ul .pic2.img.slide,
+      #slide3:checked ~ ul .pic3.img.slide,
+      #slide4:checked ~ ul .pic4.img.slide {
+        display: block;
+      }
+
+      /* Stylizujemy miniaturki */
+      .thumb {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+      }
+
+      .thumb label {
+        cursor: pointer;
+        padding: 0;
+        width: 100%;
+        transition: filter 0.2s ease-in;
+        background-color: #f1863e;
+      }
+
+      .thumb label:hover {
+        filter: opacity(60%);
+      }
+
+      .thumb img {
+        width: 100%;
+        display: block;
+        object-fit: cover;
+      }
+
+      #pricetag {
+        font-weight: 800;
+      }
+
+      label {
+        padding: 12px 40px;
+        margin-bottom: 2px;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: background-color 0.2s ease-in;
+      }
+
+      label[for="tab1"]:hover,
+      label[for="tab2"]:hover,
+      label[for="tab3"]:hover {
+        border-bottom: 2px solid #f1863e;
+        margin-bottom: 0;
+        background-color: #f1863e29;
+      }
+
+      .tab-content {
+        display: none;
+      }
+      #tab1:checked ~ label[for="tab1"],
+      #tab2:checked ~ label[for="tab2"],
+      #tab3:checked ~ label[for="tab3"] {
+        border-bottom: 2px solid #f1863e;
+        margin-bottom: 0;
+      }
+
+      #tab1:checked ~ #content-tab1,
+      #tab3:checked ~ #content-tab3 {
+        display: block;
+      }
+      #tab2:checked ~ #content-tab2 {
+        display: flex;
+      }
+
+      .tile {
+        padding: 2px;
+      }
+
+      .tile a {
+        text-decoration: none;
+      }
+      .tile p {
+        display: flex;
+        justify-content: center;
+        font-size: 0.8em;
+        margin: 0;
+        padding: 5px 0;
+        color: rgb(0, 0, 0);
+        height: 40px;
+        text-align: center;
+        align-items: center;
+      }
+      .tile img {
+        width: 100%;
+        display: block;
+        object-fit: cover;
+      }
+
+      :root {
+        --main-color: #f1863e;
+      }
+      .container {
+        font-family: "Raleway", sans-serif;
+        font-size: 16px;
+      }
+
+      button {
+        padding: 12px 18px;
+        border: none;
+        font-size: 1em;
+        background-color: #f1863e;
+        color: #fff;
+        letter-spacing: 2px;
+        transition: background-color 0.2s ease-in;
+      }
+
+      button:hover {
+        background-color: #f1863e6d;
+      }
+
+      h1 {
+        font-weight: 700;
+        font-size: 1.2em;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      hr {
+        border: 0;
+        height: 2px;
+        background-color: var(--main-color);
+        opacity: 1;
+      }
+
+      p {
+        line-height: 150%;
+        font-size: 1em;
+      }
+
+      small {
+        color: rgb(177, 177, 177);
+      }
+
+      @media (min-width: 376px) {
+        h1 {
+          font-size: 1.5em;
+        }
+      }
+
+      @media (min-width: 1400px) {
+        body {
+          font-size: 22px;
+        }
+        p {
+          font-size: 1.2em;
+        }
+        h1 {
+          font-size: 1.8em;
+        }
+      }
+    </style>
+  </body>
+</html>
