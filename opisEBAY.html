@@ -24,6 +24,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/d58f8b39d2.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="container p-4">
@@ -99,8 +100,8 @@
           </ul>
         </div>
       </nav>
-      <div class="row my-5">
-        <div class="col-lg-6 artpic">
+      <div class="row my-5 justify-content-center">
+        <div class="col-lg-8 artpic">
           <div class="artikelbilder galerie">
             <input
               name="switch"
@@ -164,7 +165,7 @@
             <!-- Artikelbilder -->
           </div>
         </div>
-        <div class="col-lg-6 mt-5">
+        <div class="col-lg-8 mt-5">
           <div>
             <h1>SCHREIBTISCH mit SCHWARZ Beinen | AHORN</h1>
 
@@ -191,14 +192,6 @@
               <span class="badge">100x60</span>
               <span class="badge">110x65</span>
               <span class="badge">120x60</span>
-            </div>
-
-            <div class="d-flex mt-4 row">
-              <div class="col-lg-4 col-6">
-                <div class="h3" id="pricetag">59,90 €</div>
-                <small>inkl. 19% MwSt.</small>
-              </div>
-              <button class="col-lg-6 col-6">SOFORT-KAUFEN</button>
             </div>
           </div>
         </div>
@@ -737,16 +730,17 @@
     <div class="info my-5">
       <div class="container">
         <div class="row p-5">
-          <div class="col-lg-4 ">
-            <h1>Schnelle Lieferung</h1>
+          <h1 class="mb-4">Warum unser Shop?</h1>
+          <div class="col-lg-4 py-3">
+            <h2><i class="fa-solid fa-truck-fast"></i> Schnelle Lieferung</h2>
             <hr>
             <p>
               Jedes Paket wird Schnell wie möglich innerhalb von die angegebene
               Bearbeitungszeit an Sie verschickt.
             </p>
           </div>
-          <div class="col-lg-4 px-5">
-            <h1 >Recycelte Versandverpackung</h1>
+          <div class="col-lg-4 py-3 px-lg-5">
+            <h2><i class="fa-solid fa-recycle"></i> Recycelte Versandverpackung</h2>
             <hr>
 
             <p>
@@ -755,8 +749,8 @@
               recycelten Materialien verpackt.
             </p>
           </div>
-          <div class="col-lg-4 ">
-            <h1 >Sie können uns vertrauen</h1>
+          <div class="col-lg-4 py-3">
+            <h2><i class="fa-solid fa-check"></i> Sie können uns vertrauen</h2>
             <hr>
 
             <p>
@@ -1045,6 +1039,11 @@
       h1 {
         font-weight: 700;
         font-size: 1.2em;
+      }
+
+      h2 {
+        font-weight: 700;
+        font-size: 1.3em;
       }
 
       img {
